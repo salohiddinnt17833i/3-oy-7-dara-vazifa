@@ -1,0 +1,220 @@
+/* raleway-500 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/raleway-v29-latin-500.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* raleway-600 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/raleway-v29-latin-600.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* raleway-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/raleway-v29-latin-700.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+* {
+  padding: 0px;
+  margin: 0px;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+.main__container {
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1600px;
+  width: 100%;
+  min-width: 310px;
+  max-height: 687px;
+  height: 100%;
+  min-height: 495px;
+  background: url(../img/main-bg.png);
+  background-repeat: no-repeat;
+  text-align: center;
+}
+.main__container h1 {
+  color: #FFF;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  text-transform: uppercase;
+  width: 446px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 120px;
+  padding-bottom: 20px;
+}
+.main__container p {
+  color: #FFF;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+  /* 27px */
+  width: 537px;
+  margin-left: auto;
+  margin-right: auto;
+  opacity: 0.8;
+  padding-bottom: 50px;
+}
+.main__container button {
+  padding: 22px 56px;
+  border: none;
+  background: #AE7B3C;
+  box-shadow: 0px 20px 25px 0px rgba(0, 0, 0, 0.05);
+  transition: all 0.4s;
+  color: #FFF;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%;
+  /* 16px */
+  margin-bottom: 120px;
+}
+.main__container button:hover {
+  background-color: #775429;
+  cursor: pointer;
+}
+.main__container .line {
+  width: 75%;
+  height: 2px;
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+  opacity: 0.4;
+  margin-bottom: 41px;
+}
+.main__container .scrol {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 200px;
+  padding-bottom: 61px;
+}
+.main__container .scrol .left {
+  display: flex;
+  gap: 20px;
+}
+.main__container .scrol img {
+  cursor: pointer;
+}
+.main__container .scrol .number span {
+  display: inline-block;
+  align-items: center;
+  padding: 8px 13px;
+  border: 1px solid #1c1a1a;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.main__container .scrol .number span:hover {
+  background-color: #fff;
+  color: #1c1a1a;
+}
+.main__container .scrol .number .active {
+  border: 1px solid white;
+  color: #FFF;
+}
+
+.room__container {
+  max-width: 1600px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 140px;
+  margin-left: 200px;
+  margin-bottom: 140px;
+}
+.room__container h2 {
+  margin-left: 356px;
+  font-size: 46px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 125%;
+  /* 57.5px */
+  text-transform: uppercase;
+}
+.room__container .block {
+  margin-top: 80px;
+  display: flex;
+  text-align: left;
+  gap: 30px;
+  width: 100%;
+  height: 100%;
+}
+.room__container .block .card {
+  padding-left: 30px;
+  border-left: 1px solid black;
+}
+.room__container .block .card span {
+  color: #282B22;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 100%; /* 24px */
+  opacity: 0.5;
+}
+.room__container .block .card p {
+  margin-top: 60px;
+  color: #3D4A39;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 100%; /* 24px */
+  margin-bottom: 30px;
+}
+
+.wi__container {
+  width: 100%;
+  height: 588px;
+  background: #3D4A39;
+  text-align: center;
+  padding-top: 100px;
+}
+.wi__container h2 {
+  color: #FFF;
+  font-size: 46px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 125%; /* 57.5px */
+  text-transform: uppercase;
+}
+.wi__container .imgs {
+  margin-top: 73px;
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  text-align: center;
+}
+.wi__container .imgs .card {
+  margin-left: auto;
+  margin-right: auto;
+}
+.wi__container .imgs .card img {
+  margin-top: 30px;
+  cursor: pointer;
+}
+.wi__container .imgs .card h4 {
+  opacity: 0.5;
+  color: #FFF;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 130%; /* 31.2px */
+}/*# sourceMappingURL=main.css.map */
